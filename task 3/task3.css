@@ -1,102 +1,97 @@
-.sign5 {
-        width: 400px;
-        height: 500px;
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-        margin: 100px auto; 
-        background-color: rgb(181, 154, 255);
-        color: white;
-        position: relative;
-        transform: none; }
+.sign1{
+    background-color: rgb(181, 154, 255);
+    width: 400px;
+    height: 500px;
+    color: white;
+    margin: 100px auto;
+}
+.sign1 h1, .sign1 p{
+    text-align: center;
+}
+.sign1 input, .sign1 button{
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.sign1 input[type="text"]{
+    width: 36%;
+    height: 35px;
+    margin-top:  20px;
+    box-sizing: border-box; 
+}
+.sign1 input[type="email"],.sign1 input[type="password"]{
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+}
+.sign1 button{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    margin-top: 30px;
+    background-color: gray;
+}
+.background1{
+    width: 100%;
+    height: 500px;
+     background: linear-gradient(to top, rgb(158, 130, 186), rgb(229, 191, 239)); 
+     position: relative;
+}
 
-    .sign5 h1, .sign5 p{
-        text-align: center;
-    }
-    .sign5 input, .sign5 button{
-        margin-left: 30px;
-        border-radius: 5px;
-        border: none;
-
-    }
-    .sign5 input[type="text"]{
-        width: 36%;
-        height: 40px;
-        margin-top: 20px;   
-        box-sizing: border-box;     
-    }
-    .sign5 input[type="email"],.sign5 input[type="password"]{
-        width: 80%;
-        height: 40px;
-        margin-top: 20px;        
-    }
-    .sign5 button{
-        display: block;      
-        width: 80%;           
-        margin:  auto ;  
-        height: 40px;
-        border-radius: 5px;
-        color: white;
-        border: none;
-        margin-top: 30px;
-        background-color: grey;
-        
-    }
-    .sign5 span{
-        text-decoration: underline;
-    }
-
-
-
-
-     .formBackground{
+ .background2{
         width: 100%;
         height: 500px;
         background: linear-gradient(to top, rgb(143, 73, 209), rgb(206, 118, 228)); 
         position: relative;
         }
-    .sign6{
-        width: 600px;
-        height: 390px;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-        margin-bottom: 100px;
-        z-index: 1;
-        background-color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        overflow: hidden;
-        border-radius: 20px;
-    }
-    .login-img {
-        width: 200px;
-        height: auto;
-        float: left;
-        margin-left: 30px;
-        margin-top: 80px;
-    }
 
-    .form-content {
-        width: 55%; 
-        float: right; 
-        padding: 20px;
-        box-sizing: border-box;
-    }
-    .form-content h1, .form-content p, .form-content span{
-        text-align: center;
-    }
-    .form-content input, .form-content button{
-        margin-left: 30px;
-        border-radius: 20px;
-    }
-    .form-content input[type="email"],.form-content input[type="password"]{
-        width: 80%;
-        height: 40px;
-        margin-top: 20px;  
-        border: none;
-        background-color: rgb(209, 203, 203);      
-    }
-    .form-content button{
-        display: block;      
+.sign2{
+    width: 600px;
+    height: 390px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-bottom: 100px;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 20px;
+}
+.img{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.sign2f{
+    width: 55%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sign2f p, .sign2f h1{
+    text-align: center;
+}
+.sign2f input, .sign2f button{
+    margin-left: 30px;
+    border-radius: 15%;
+}
+.sign2f input{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(209, 203, 203);    
+}
+.sign2f button{
+    display: block;      
         width: 80%;           
         margin:  auto ;  
         height: 40px;
@@ -104,8 +99,8 @@
         border: none;
         margin-top: 30px;
         background-color: rgb(9, 230, 64);
-        
-    }
+}
+/*
     .form-content span{
         color: rgb(9, 230, 64);
         text-align: center;
@@ -114,3 +109,4 @@
         display: block;
         text-align: center;
     }
+        */
