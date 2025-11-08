@@ -1,151 +1,148 @@
 .sign1{
-        margin: auto;
-        width: 320px;
-        height: 370px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        margin-bottom: 100px;
-    }
-    .sign1 h1,.sign1 p{
-        margin-left:30px;
-    }
-    .sign1 a{
-        display: block;
-         margin-bottom: 10px;
-        margin-left: 30px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .sign1 input, .sign1 button{
-        margin-left:30px;
-        margin-bottom: 15px;
-        width: 80%;
-        height: 40px;
-        box-sizing: border-box;
-    }
-    .sign1 input{
-        border-radius: 5px;
-    }
-    .sign1 button{
-       border-radius: 20px;
-       background-color: rgb(74, 74, 255);
-       color: white;
-       border: none;
-    }
-    #apple{
-        background-color: white;
-        color: black;
-        border: 1px solid black;
-    }
-    #apple img {
-        width: 20px;
-        margin-right: 8px;
-        vertical-align: middle;
-    }
+  margin: auto;
+  width: 330px;
+  height: 380px;
+  box-shadow: rgb1(0, 0, 0, 0.25) 0px 3px 8px;
+}
+.sign1 h1,.sign1 p{
+  margin-left: 30px ;
+}
+.sign1 a{
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sign1 input, .sign1 button{
+  margin-left: 30px;
+  margin-bottom: 15px;
+  width: 80%;
+  height: 40px;
+  box-sizing: border-box;
+}
+.sign1 input{
+  border-radius: 5px;
+}
+.sign1 button{
+  border-radius: 20px;
+  background-color: rgb(74,74,255);
+  color: wheat;
+  border: none;
+}
+#apple{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+}
 
-/* ************************************************************************************************* */
-    .sign2{
-        margin: auto;
-        width: 320px;
-        height: 380px;
-    }
-    .sign2 input ,.sign2 button, .sign2 label{
-        margin-bottom: 15px;
-        width: 80%;
-        height: 35px;
-        box-sizing: border-box;
-        border-radius: 5px;
-        padding-bottom: 10px;
-    }
-    .sign2 button{
-        background-color: rgb(112, 204, 235);
-        color: white;
-        border: none;
-    }
+/*----------------------------------------------------------------------------------*/
+.sign2{
+  margin: auto;
+  width: 320px;
+  height: 380px;
+}
+.sign2 input, .sign2 button, .sign2 label{
+  margin-bottom: 15px;
+  width: 80%;
+  height: 35px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.sign2 button{
+  background-color: rgb(112,204,235);
+  color: white;
+  border: none;
+}
+/*----------------------------------------------------------------------------------*/
 
-/* ************************************************************************************************* */
+.background1{
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(to top, rgb(102, 224, 178), rgb(23, 143, 97));
+  position: relative;
+}
+.sign3{
+  width: 340px;
+  height: 390px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 100px;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign3 h1, .sign3 p{
+  text-align: center;
+}
+.sign3 input, .sign3 button{
+  margin-left: 30px;
+}
+.sign3 input[type="email"],.sign3 input[type="password"] {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+}
+.sign3 button {
+  display: block;
+  width: 30%;
+  height: 40px;
+  margin: auto;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  background-color: rgb(33, 175, 121);
+}
+.sign3 span, .sign3 h1{
+  color: rgb(33, 175, 121);
+}
 
-    .formBackground{
-        width: 100%;
-        height: 500px;
-        background: linear-gradient(to top, rgb(102, 224, 178), rgb(23, 143, 97)); /* أي خلفية تحب */
-        position: relative;
-        }
-    .sign3{
-        width: 340px;
-        height: 390px;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-        margin-bottom: 100px;
-        z-index: 1;
-        background-color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .sign3 h1, .sign3 p{
+/*----------------------------------------------------------------------------------*/
+.background2{
+  margin-top: 150px;
+  width: 100%;
+  height: 480px;
+  background: linear-gradient(to top, rgb(33, 175, 121));
+  position: relative;
+}
+.sign4{
+  background-color: white;
+  width: 340px;
+  height: 350px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign4 h1, .sign4 p{
         text-align: center;
     }
-    .sign3 input, .sign3 button{
-        margin-left: 30px;
+.sign4 input, .sign4 button, .sign4 label{
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+.sign4 input{
+  width: 80%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid ;
+}
+.sign4 button{
+  display: block;
+  width: 80%;
+  height: 40px;
+  color: white;
+  background-color: rgb(33, 175, 121);
+  margin-top: 20px;
+  border: none;
+}
+  /*  
 
-    }
-    .sign3 input[type="email"],.sign3 input[type="password"]{
-        width: 80%;
-        height: 40px;
-        margin-top: 20px;        
-    }
-    .sign3 button{
-        display: block;      
-        width: 30%;           
-        margin:  auto ;  
-        height: 40px;
-        border-radius: 5px;
-        color: white;
-        border: none;
-        margin-top: 30px;
-        background-color: rgb(33, 175, 121);
-        
-    }
-    .sign3 span, .sign3 h1{
-        color: rgb(33, 175, 121);;
-    }
-
-/* ****************************************************************************************************** */
-
-    .formBackground2{
-        margin-top: 150px;
-        width: 100%;
-        height: 480px;
-        background: linear-gradient(to top, rgb(33, 175, 121)); 
-        position: relative;
-        }
-    .sign4{
-        width: 340px;
-        height: 350px;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-        z-index: 1;
-        background-color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .sign4 h1, .sign4 p{
-        text-align: center;
-    }
-    .sign4 input, .sign4 button, .sign4 label{
-        margin-left: 30px;
-        box-sizing: border-box;
-
-    }
-    .sign4 input[type="email"],.sign4 input[type="password"]{
-        width: 80%;
-        height: 40px;
-        margin-bottom: 10px;   
-        border:none;
-        border-bottom: 1px solid black;  
-        outline:none;   
-    }
     .sign4 button{
         display: block;      
         width: 80%;           
@@ -158,3 +155,4 @@
         background-color: rgb(33, 175, 121);
         
     }
+*/   
