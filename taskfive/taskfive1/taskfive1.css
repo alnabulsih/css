@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: violet;
+}
+
+h4 {
+    margin: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.small-article {
+    background-color: lightgray;
+}
+
+.center-article {
+    grid-column: span 3;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    overflow: auto;
+    font-weight: bold;
+    height: 6rem;
+}
