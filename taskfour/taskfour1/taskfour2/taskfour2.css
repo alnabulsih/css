@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #A2CAFF;
+  height: 100vh;
+}
+
+div{
+  display: flex;
+  width: 33.333%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  max-height: 5000px; 
+
+}
+
+div h1,h4,input,label,button{
+  color: #5299f6;
+  border-color:  #5299f6;
+  border-radius: 4px;
+}
+
+
+div input,label,button{
+  margin: -4px;
+}
+
