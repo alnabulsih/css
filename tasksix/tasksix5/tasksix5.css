@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    font-size: 8rem;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.div1 {
+    background-color: lightgreen;
+    flex: 1;
+    text-align: center;
+}
+
+.div2 {
+    background-color: lightblue;
+    flex: 1;
+    text-align: center;
+}
+
+.div3 {
+    background-color: purple;
+    flex: 1;
+    text-align: center;
+}
+
+.div4 {
+    background-color: darkslategrey;
+    flex: 1;
+    text-align: center;
+}
+
+.div5 {
+    background-color: yellow;
+    flex: 1;
+    text-align: center;
+}
+
+.div6 {
+    background-color: orange;
+    flex: 1;
+    text-align: center;
+}
+
+.div7 {
+    background-color: darkred;
+    flex: 1;
+    text-align: center;
+}
+
+.div8 {
+    background-color: grey;
+    flex: 1;
+    text-align: center;
+}
+
+.div9 {
+    background-color: lightgreen;
+    flex: 1;
+    text-align: center;
+}

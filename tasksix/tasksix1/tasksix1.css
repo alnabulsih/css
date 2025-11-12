@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-items: stretch;
+}
+
+.first {
+    width: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    align-content: center;
+}
+
+.second {
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-size: 5rem;
+    text-align: center;
+    align-content: center;
+}
